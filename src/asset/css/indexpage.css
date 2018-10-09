@@ -1,0 +1,65 @@
+.card-inner{
+    position: relative;
+}
+.card-top{
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+}
+.card-top .metawarp{
+    float: left;
+}
+.card-top .metawarp .meta{
+    color: rgba(0,0,0,.45);
+    font-size: 14px;
+    line-height: 22px;
+    height: 22px;
+}
+.card-top .metawarp .meta .meta-icon{
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.card-top .metawarp .total{
+    color: rgba(0,0,0,.85);
+    overflow: hidden;
+    text-overflow: ellipsis;
+    word-break: break-all;
+    white-space: nowrap;
+    color: rgba(0,0,0,.85);
+    margin-top: 4px;
+    margin-bottom: 0;
+    font-size: 30px;
+    line-height: 38px;
+    height: 38px;
+}
+.card-content{
+    margin-bottom: 12px;
+    position: relative;
+    width: 100%;
+    height: 46px;
+}
+.card-footer{
+    padding-top: 9px;
+    margin-top: 8px;
+    border-top: 1px solid #e8e8e8;
+}
+.card-footer>*{
+    position: relative;
+}
+.card-footer .field{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin: 0;
+}
+.card-footer .field span:last-child{
+    margin-left: 8px;
+}
+.bottom-inner{
+    position: relative;
+}
+.bottom-content{
+    height: 300px;
+}
